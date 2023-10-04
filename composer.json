@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Silvanite\\NovaToolPermissions\\": "src-php/"
+      "Bradoctech\\NovaToolPermissions\\": "src-php/"
     }
   },
   "repositories": [
@@ -49,8 +49,8 @@
   "extra": {
     "laravel": {
       "providers": [
-        "bradoctech\\NovaToolPermissions\\Providers\\AuthServiceProvider",
-        "bradoctech\\NovaToolPermissions\\Providers\\PackageServiceProvider"
+        "Bradoctech\\NovaToolPermissions\\Providers\\AuthServiceProvider",
+        "Bradoctech\\NovaToolPermissions\\Providers\\PackageServiceProvider"
       ]
     }
   }
