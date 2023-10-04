@@ -1,12 +1,12 @@
 <?php
 
-namespace Silvanite\NovaToolPermissions\Providers;
+namespace Bradoctech\NovaToolPermissions\Providers;
 
-use Silvanite\Brandenburg\Role;
+use Bradoctech\Brandenburg\Role;
 use Illuminate\Support\Facades\Gate;
-use Silvanite\NovaToolPermissions\Policies\RolePolicy;
-use Silvanite\NovaToolPermissions\Policies\UserPolicy;
-use Silvanite\Brandenburg\Traits\ValidatesPermissions;
+use Bradoctech\NovaToolPermissions\Policies\RolePolicy;
+use Bradoctech\NovaToolPermissions\Policies\UserPolicy;
+use Bradoctech\Brandenburg\Traits\ValidatesPermissions;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
 class AuthServiceProvider extends ServiceProvider
