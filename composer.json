@@ -40,13 +40,17 @@
     {
       "type": "composer",
       "url": "https://nova.laravel.com"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/bradoctech/brandenburg"
     }
   ],
   "extra": {
     "laravel": {
       "providers": [
-        "Silvanite\\NovaToolPermissions\\Providers\\AuthServiceProvider",
-        "Silvanite\\NovaToolPermissions\\Providers\\PackageServiceProvider"
+        "bradoctech\\NovaToolPermissions\\Providers\\AuthServiceProvider",
+        "bradoctech\\NovaToolPermissions\\Providers\\PackageServiceProvider"
       ]
     }
   }
