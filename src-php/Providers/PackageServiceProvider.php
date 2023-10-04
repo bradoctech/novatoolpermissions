@@ -1,6 +1,6 @@
 <?php
 
-namespace Silvanite\NovaToolPermissions\Providers;
+namespace Bradoctech\NovaToolPermissions\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Gate;

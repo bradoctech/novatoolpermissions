@@ -1,9 +1,9 @@
 <?php
 
-namespace Silvanite\NovaToolPermissions\Nova;
+namespace Bradoctech\NovaToolPermissions\Nova;
 
 use Laravel\Nova\Panel;
-use Silvanite\Brandenburg\Role as RoleModel;
+use Bradoctech\Brandenburg\Role as RoleModel;
 use Silvanite\NovaFieldCheckboxes\Checkboxes;
 
 class AccessControl

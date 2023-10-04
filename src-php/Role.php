@@ -1,15 +1,15 @@
 <?php
 
-namespace Silvanite\NovaToolPermissions;
+namespace Bradoctech\NovaToolPermissions;
 
 use Laravel\Nova\Fields\Slug;
 use Laravel\Nova\Resource;
 use Laravel\Nova\Fields\ID;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\Text;
-use Silvanite\Brandenburg\Policy;
+use Bradoctech\Brandenburg\Policy;
 use Laravel\Nova\Fields\BelongsToMany;
-use Silvanite\Brandenburg\Role as RoleModel;
+use Bradoctech\Brandenburg\Role as RoleModel;
 use Silvanite\NovaFieldCheckboxes\Checkboxes;
 
 class Role extends Resource

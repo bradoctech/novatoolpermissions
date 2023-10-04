@@ -1,10 +1,10 @@
 <?php
 
-namespace Silvanite\NovaToolPermissions\Traits;
+namespace Bradoctech\NovaToolPermissions\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Request;
-use Silvanite\NovaToolPermissions\Access;
+use Bradoctech\NovaToolPermissions\Access;
 
 trait HasAccessControl
 {
